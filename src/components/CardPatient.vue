@@ -1,5 +1,5 @@
 <template>
-  <div class="w-8/12 p-3">
+  <div class="w-full lg:w-8/12 p-3">
     <div class="w-full h-full bg-white p-5 rounded-2xl">
       <div class="flex flex-row items-center justify-between">
         <div class="ubuntu font-medium">Patient Statistic</div>

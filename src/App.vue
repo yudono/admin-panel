@@ -32,8 +32,10 @@
 				</div>
 				<div class="ubuntu font-black text-3xl">Overview</div>
 				<div class="flex-grow"></div>
-				<div class="ubuntu bg-white px-4 py-2 text-sm rounded-full w-48 flex-shrink-0"><i class="far fa-calendar mr-1"></i> Jan - Feb 2021 <i class="fa fa-chevron-down ml-4"></i></div>
-				<div class='ml-5 lw-8 lg:w-auto flex-shrink-0'><img :src="require('@/assets/images/avatar.png')" alt="avatar" class="w-8 h-8 inline-block"><div class="lg:inline-block ubuntu font-medium ml-3 hidden">Botak Sebelah</div></div>
+				<div class="flex lg:inline-table w-full lg:w-auto justify-between mt-5 lg:mt-0">
+					<div class="ubuntu bg-white px-4 py-2 text-sm rounded-full w-48 flex-shrink-0"><i class="far fa-calendar mr-1"></i> Jan - Feb 2021 <i class="fa fa-chevron-down ml-4"></i></div>
+					<div class='ml-5 lw-8 lg:w-auto flex-shrink-0'><img :src="require('@/assets/images/avatar.png')" alt="avatar" class="w-8 h-8 inline-block"><div class="lg:inline-block ubuntu font-medium ml-3 hidden">Botak Sebelah</div></div>
+				</div>
 			</div>
 
 			<div class="flex flex-wrap mt-10">
