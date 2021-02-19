@@ -3,7 +3,7 @@
 	<div class="flex flex-row">
 		
 		<!-- sidebar -->
-		<aside class="flex-shrink-0 w-full max-w-xs min-w-64 h-screen overflow-auto p-6 flex flex-col justify-center fixed top-0 left-0 bg-white lg:static shadow-xl lg:shadow-none hidden lg:block">
+		<aside class="flex-shrink-0 max-w-xs min-w-64 w-full h-screen overflow-auto p-6 justify-center fixed top-0 left-0 bg-white lg:static shadow-xl lg:shadow-none hidden flex flex-col z-50">
 			<img src="./assets/logo.png" alt="logo" class="w-12">
 			<div class="my-3 ubuntu text-theme-primary font-medium text-xl">Husada SIMRS</div>
 
@@ -24,12 +24,12 @@
 
 		<!-- main -->
 		<main class="flex-grow h-screen overflow-auto bg-theme-body py-8 px-6">
-			<div class="flex flex-row">
+			<div class="flex flex-wrap">
 				<i class="fa fa-bars mr-4 block sm:hidden" v-on:click="show"></i>
 				<div class="ubuntu font-black text-3xl">Overview</div>
 				<div class="flex-grow"></div>
-				<div class="ubuntu bg-white px-4 py-2 text-sm rounded-full"><i class="far fa-calendar mr-1"></i> Jan - Feb 2021 <i class="fa fa-chevron-down ml-4"></i></div>
-				<div class='ml-5'><img :src="require('@/assets/images/avatar.png')" alt="avatar" class="w-8 h-8 inline-block"><div class="lg:inline-block ubuntu font-medium ml-3 hidden">Botak Sebelah</div></div>
+				<div class="ubuntu bg-white px-4 py-2 text-sm rounded-full w-48 flex-shrink-0"><i class="far fa-calendar mr-1"></i> Jan - Feb 2021 <i class="fa fa-chevron-down ml-4"></i></div>
+				<div class='ml-5 lw-8 lg:w-auto flex-shrink-0'><img :src="require('@/assets/images/avatar.png')" alt="avatar" class="w-8 h-8 inline-block"><div class="lg:inline-block ubuntu font-medium ml-3 hidden">Botak Sebelah</div></div>
 			</div>
 
 			<div class="flex flex-wrap mt-10">
@@ -222,7 +222,7 @@
 											<img :src="require('@/assets/images/avatar-9.png')" alt="avatar" class="w-8 h-8 object-cover border-white border-2 rounded-full absolute left-24 transform -translate-x-3/4">
 										</div>
 									</div>
-									<div class="text-xs bg-indigo-200 text-indigo-800 px-4 py-2 rounded-lg">Start new chat</div>
+									<div class="text-xs bg-indigo-200 text-indigo-800 px-4 py-2 rounded-lg table">Start new chat</div>
 								</div>
 								<div class="border-t border-gray-200 pt-4">
 									<div class="flex flex-row">
