@@ -3,23 +3,25 @@
 	<div class="flex flex-row">
 		
 		<!-- sidebar -->
-		<aside class="flex-shrink-0 max-w-xs min-w-64 w-full h-screen overflow-auto p-6 justify-center fixed top-0 left-0 bg-white lg:static shadow-xl lg:shadow-none hidden flex flex-col z-50">
-			<img src="./assets/logo.png" alt="logo" class="w-12">
-			<div class="my-3 ubuntu text-theme-primary font-medium text-xl">Husada SIMRS</div>
+		<aside class="flex-shrink-0 max-w-xs min-w-64 w-full h-screen overflow-auto p-6 justify-center fixed top-0 left-0 bg-white lg:static shadow-xl lg:shadow-none hidden lg:block z-50">
+			<div class="w-full h-full flex flex-col">
+				<img src="./assets/logo.png" alt="logo" class="w-12">
+				<div class="my-3 ubuntu text-theme-primary font-medium text-xl">Husada SIMRS</div>
 
-			<!-- menu -->
-			<div class="mt-2">
-				<NavItem name="Home" icon="Activity.png" active="true" title="Home"></NavItem>
-				<NavItem name="Waiting List" icon="Users.png" title="Waiting List"></NavItem>
-				<NavItem name="Schedules" icon="Calendar.png" title="Schedules"></NavItem>
-				<NavItem name="Settings" icon="Setting.png" title="Settings"></NavItem>
-				<NavItem name="Help Center" icon="Help.png" title="Help Center"></NavItem>
+				<!-- menu -->
+				<div class="mt-2">
+					<NavItem name="Home" icon="Activity.png" active="true" title="Home"></NavItem>
+					<NavItem name="Waiting List" icon="Users.png" title="Waiting List"></NavItem>
+					<NavItem name="Schedules" icon="Calendar.png" title="Schedules"></NavItem>
+					<NavItem name="Settings" icon="Setting.png" title="Settings"></NavItem>
+					<NavItem name="Help Center" icon="Help.png" title="Help Center"></NavItem>
+				</div>
+
+				<div class="flex-grow"></div>
+
+				<!-- Today reports -->
+				<Reports></Reports>
 			</div>
-
-			<div class="flex-grow"></div>
-
-			<!-- Today reports -->
-			<Reports></Reports>
 		</aside>
 
 		<!-- main -->
